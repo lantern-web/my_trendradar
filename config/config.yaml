@@ -87,7 +87,7 @@ platforms:
   name: "靠谱新闻"
   id: "tencent-hot"
   name: "腾讯新闻 综合早报"
-  === 财经投资类 ===
+  # === 财经投资类 ===
   id: "wallstreetcn-hot"
   name: "华尔街见闻 最热"
   id: "wallstreetcn-quick"
@@ -110,7 +110,7 @@ platforms:
   name: "雪球"
   id: "jin10"
   name: "金十数据"
-  === 社交/短视频/娱乐类 ===
+  # === 社交/短视频/娱乐类 ===
   id: "weibo"
   name: "微博"
   id: "douyin"
@@ -129,7 +129,7 @@ platforms:
   name: "腾讯视频热搜榜"
   id: "iqiyi-hot-ranklist"
   name: "爱奇艺热播榜"
-  === 科技类平台 ===
+  # === 科技类平台 ===
   id: "ithome"
   name: "IT之家"
   id: "juejin"
