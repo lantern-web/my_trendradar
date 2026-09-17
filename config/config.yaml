@@ -189,6 +189,36 @@ rss:
       name: "雅虎财经"
       url: "https://finance.yahoo.com/news/rssindex"
 
+    - id: "google-news-motor"
+      name: "Google News - 电机"
+      url: "https://news.google.com/rss/search?q=电机&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+      enabled: true
+      max_age_days: 1
+
+    - id: "google-news-corner-module"
+      name: "Google News - 角模块"
+      url: "https://news.google.com/rss/search?q=角模块&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+      enabled: true
+      max_age_days: 1
+
+    - id: "google-news-chassis"
+      name: "Google News - 底盘"
+      url: "https://news.google.com/rss/search?q=底盘&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+      enabled: true
+      max_age_days: 1
+
+    - id: "google-news-distributed-control"
+      name: "Google News - 分布式控制"
+      url: "https://news.google.com/rss/search?q=分布式控制&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+      enabled: true
+      max_age_days: 1
+
+    - id: "google-news-automotive"
+      name: "Google News - 汽车"
+      url: "https://news.google.com/rss/search?q=汽车&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+      enabled: true
+      max_age_days: 1
+
     # 自定义源示例
     # - id: "custom-feed"
     #   name: "自定义源"
