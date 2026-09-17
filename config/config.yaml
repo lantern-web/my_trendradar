@@ -219,7 +219,7 @@ rss:
     #   enabled: true
     #   max_age_days: 1
 
-    - id: "arxiv-in-wheel-motor"
+  - id: "arxiv-in-wheel-motor"
     name: "arXiv - in-wheel motor"
     url: "http://export.arxiv.org/api/query?search_query=all:%22in-wheel+motor%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
     enabled: true
