@@ -154,7 +154,7 @@
 电机
 轮边电机
 角模块
-@20
+@10
 
 [分布式控制]
 分布式控制
@@ -162,12 +162,30 @@
 动力域
 智能驾驶
 智驾
-@20
+@10
 
 [汽车]
 汽车
-@20
+@10
 
-[自由消息]
-a
-@20
+[论文研究]
+in-wheel motor
+hub motor
+wheel hub motor
+distributed control
+distributed drive
+distributed traction
+distributed drive control
+corner module
+chassis
+vehicle
+automobile
+electric motor
+traction motor
+drive motor
+torque vector
+@10
+
+[自由探索]
+
+@10
