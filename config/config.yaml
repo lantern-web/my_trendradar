@@ -166,7 +166,7 @@ rss:
   freshness_filter:
     enabled: true                     # 是否启用新鲜度过滤（true=启用, false=关闭）
 
-    max_age_days: 1                   # 最大文章年龄（天）
+    max_age_days: 10                   # 最大文章年龄（天）
                                       # - 正整数：只推送 N 天内的文章
                                       # - 0：禁用过滤，推送所有文章
 
@@ -223,31 +223,31 @@ rss:
       name: "arXiv - motor"
       url: "http://export.arxiv.org/api/query?search_query=all:%22motor%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
       enabled: true
-      max_age_days: 1
+      max_age_days: 10
 
     - id: "arxiv-corner-module"
       name: "arXiv - corner module"
       url: "http://export.arxiv.org/api/query?search_query=all:%22corner+module%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
       enabled: true
-      max_age_days: 1
+      max_age_days: 10
 
     - id: "arxiv-chassis"
       name: "arXiv - chassis"
       url: "http://export.arxiv.org/api/query?search_query=all:%22chassis%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
       enabled: true
-      max_age_days: 1
+      max_age_days: 10
 
     - id: "arxiv-distributed-control"
       name: "arXiv - distributed control"
       url: "http://export.arxiv.org/api/query?search_query=all:%22distributed+control%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
       enabled: true
-      max_age_days: 1
+      max_age_days: 10
 
     - id: "arxiv-automotive"
       name: "arXiv - automotive"
       url: "http://export.arxiv.org/api/query?search_query=all:%22automotive%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
       enabled: true
-      max_age_days: 1
+      max_age_days: 10
 
     # 自定义源示例
     # - id: "custom-feed"
