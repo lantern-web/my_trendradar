@@ -166,7 +166,7 @@ rss:
   freshness_filter:
     enabled: true                     # 是否启用新鲜度过滤（true=启用, false=关闭）
 
-    max_age_days: 10                   # 最大文章年龄（天）
+    max_age_days: 1                   # 最大文章年龄（天）
                                       # - 正整数：只推送 N 天内的文章
                                       # - 0：禁用过滤，推送所有文章
 
@@ -219,35 +219,95 @@ rss:
     #   enabled: true
     #   max_age_days: 1
 
-    - id: "arxiv-motor"
-      name: "arXiv - motor"
-      url: "http://export.arxiv.org/api/query?search_query=all:%22motor%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
-      enabled: true
-      max_age_days: 10
+    - id: "arxiv-in-wheel-motor"
+    name: "arXiv - in-wheel motor"
+    url: "http://export.arxiv.org/api/query?search_query=all:%22in-wheel+motor%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
+    enabled: true
+    max_age_days: 1
 
-    - id: "arxiv-corner-module"
-      name: "arXiv - corner module"
-      url: "http://export.arxiv.org/api/query?search_query=all:%22corner+module%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
-      enabled: true
-      max_age_days: 10
+  - id: "arxiv-hub-motor"
+    name: "arXiv - hub motor"
+    url: "http://export.arxiv.org/api/query?search_query=all:%22hub+motor%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
+    enabled: true
+    max_age_days: 1
 
-    - id: "arxiv-chassis"
-      name: "arXiv - chassis"
-      url: "http://export.arxiv.org/api/query?search_query=all:%22chassis%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
-      enabled: true
-      max_age_days: 10
+  - id: "arxiv-wheel-hub-motor"
+    name: "arXiv - wheel hub motor"
+    url: "http://export.arxiv.org/api/query?search_query=all:%22wheel+hub+motor%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
+    enabled: true
+    max_age_days: 1
 
-    - id: "arxiv-distributed-control"
-      name: "arXiv - distributed control"
-      url: "http://export.arxiv.org/api/query?search_query=all:%22distributed+control%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
-      enabled: true
-      max_age_days: 10
+  - id: "arxiv-distributed-control"
+    name: "arXiv - distributed control"
+    url: "http://export.arxiv.org/api/query?search_query=all:%22distributed+control%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
+    enabled: true
+    max_age_days: 1
 
-    - id: "arxiv-automotive"
-      name: "arXiv - automotive"
-      url: "http://export.arxiv.org/api/query?search_query=all:%22automotive%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
-      enabled: true
-      max_age_days: 10
+  - id: "arxiv-distributed-drive"
+    name: "arXiv - distributed drive"
+    url: "http://export.arxiv.org/api/query?search_query=all:%22distributed+drive%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
+    enabled: true
+    max_age_days: 1
+
+  - id: "arxiv-distributed-traction"
+    name: "arXiv - distributed traction"
+    url: "http://export.arxiv.org/api/query?search_query=all:%22distributed+traction%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
+    enabled: true
+    max_age_days: 1
+
+  - id: "arxiv-distributed-drive-control"
+    name: "arXiv - distributed drive control"
+    url: "http://export.arxiv.org/api/query?search_query=all:%22distributed+drive+control%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
+    enabled: true
+    max_age_days: 1
+
+  - id: "arxiv-corner-module"
+    name: "arXiv - corner module"
+    url: "http://export.arxiv.org/api/query?search_query=all:%22corner+module%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
+    enabled: true
+    max_age_days: 1
+
+  - id: "arxiv-chassis"
+    name: "arXiv - chassis"
+    url: "http://export.arxiv.org/api/query?search_query=all:%22chassis%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
+    enabled: true
+    max_age_days: 1
+
+  - id: "arxiv-vehicle"
+    name: "arXiv - vehicle"
+    url: "http://export.arxiv.org/api/query?search_query=all:%22vehicle%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
+    enabled: true
+    max_age_days: 1
+
+  - id: "arxiv-automobile"
+    name: "arXiv - automobile"
+    url: "http://export.arxiv.org/api/query?search_query=all:%22automobile%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
+    enabled: true
+    max_age_days: 1
+
+  - id: "arxiv-electric-motor"
+    name: "arXiv - electric motor"
+    url: "http://export.arxiv.org/api/query?search_query=all:%22electric+motor%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
+    enabled: true
+    max_age_days: 1
+
+  - id: "arxiv-traction-motor"
+    name: "arXiv - traction motor"
+    url: "http://export.arxiv.org/api/query?search_query=all:%22traction+motor%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
+    enabled: true
+    max_age_days: 1
+
+  - id: "arxiv-drive-motor"
+    name: "arXiv - drive motor"
+    url: "http://export.arxiv.org/api/query?search_query=all:%22drive+motor%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
+    enabled: true
+    max_age_days: 1
+
+  - id: "arxiv-torque-vectoring"
+    name: "arXiv - torque vectoring"
+    url: "http://export.arxiv.org/api/query?search_query=all:%22torque+vectoring%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
+    enabled: true
+    max_age_days: 1
 
     # 自定义源示例
     # - id: "custom-feed"
@@ -347,14 +407,14 @@ display:
                                       # 注：热点词汇统计中的新增标记🆕不受此配置影响
 
     rss: true                         # RSS 订阅区域（true=显示并分析, false=隐藏并跳过分析）
-    standalone: false                 # 独立展示区：完整热榜/RSS，不受关键词过滤（true=显示, false=隐藏）
-    ai_analysis: true                 # AI 分析区域（true=显示, false=隐藏）
+    standalone: true                 # 独立展示区：完整热榜/RSS，不受关键词过滤（true=显示, false=隐藏）
+    ai_analysis: false                 # AI 分析区域（true=显示, false=隐藏）
 
   # 独立展示区：将指定平台/RSS 完整展示，不受关键词过滤
   # 推送展示由 regions.standalone 控制，AI 分析由 ai_analysis.include_standalone 控制
   standalone:
     platforms: ["zhihu", "wallstreetcn-hot"]     # 热榜平台 ID 列表（如 ["zhihu", "weibo"]）
-    rss_feeds: []                                # RSS 源 ID 列表（如 ["hacker-news"]）
+    rss_feeds: ["arxiv-vehicle"]                                # RSS 源 ID 列表（如 ["hacker-news"]）
     max_items: 20                                # 每个源最多展示条数（0=不限制）
 
 
