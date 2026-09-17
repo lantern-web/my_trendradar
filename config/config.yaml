@@ -175,73 +175,73 @@ rss:
   # - 正整数：覆盖全局设置，只推送此天数内的文章
   # - 0：禁用此频道的新鲜度过滤，推送所有文章
   feeds:
-    - id: "hacker-news"
-      name: "Hacker News"
-      url: "https://hnrss.org/frontpage"
+    # - id: "hacker-news"
+    #   name: "Hacker News"
+    #   url: "https://hnrss.org/frontpage"
 
-    - id: "ruanyifeng"
-      name: "阮一峰的网络日志"
-      url: "http://www.ruanyifeng.com/blog/atom.xml"
-      enabled: false                  # 禁用
-      # max_age_days: 3               # 示例：推送 3 天内的文章（更新较慢的博客）
+    # - id: "ruanyifeng"
+    #   name: "阮一峰的网络日志"
+    #   url: "http://www.ruanyifeng.com/blog/atom.xml"
+    #   enabled: false                  # 禁用
+    #   # max_age_days: 3               # 示例：推送 3 天内的文章（更新较慢的博客）
      
-    - id: "yahoo-finance"
-      name: "雅虎财经"
-      url: "https://finance.yahoo.com/news/rssindex"
+    # - id: "yahoo-finance"
+    #   name: "雅虎财经"
+    #   url: "https://finance.yahoo.com/news/rssindex"
 
-    - id: "google-news-motor"
-      name: "Google News - 电机"
-      url: "https://news.google.com/rss/search?q=电机&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
-      enabled: true
-      max_age_days: 1
+    # - id: "google-news-motor"
+    #   name: "Google News - 电机"
+    #   url: "https://news.google.com/rss/search?q=电机&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+    #   enabled: true
+    #   max_age_days: 1
 
-    - id: "google-news-corner-module"
-      name: "Google News - 角模块"
-      url: "https://news.google.com/rss/search?q=角模块&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
-      enabled: true
-      max_age_days: 1
+    # - id: "google-news-corner-module"
+    #   name: "Google News - 角模块"
+    #   url: "https://news.google.com/rss/search?q=角模块&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+    #   enabled: true
+    #   max_age_days: 1
 
-    - id: "google-news-chassis"
-      name: "Google News - 底盘"
-      url: "https://news.google.com/rss/search?q=底盘&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
-      enabled: true
-      max_age_days: 1
+    # - id: "google-news-chassis"
+    #   name: "Google News - 底盘"
+    #   url: "https://news.google.com/rss/search?q=底盘&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+    #   enabled: true
+    #   max_age_days: 1
 
-    - id: "google-news-distributed-control"
-      name: "Google News - 分布式控制"
-      url: "https://news.google.com/rss/search?q=分布式控制&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
-      enabled: true
-      max_age_days: 1
+    # - id: "google-news-distributed-control"
+    #   name: "Google News - 分布式控制"
+    #   url: "https://news.google.com/rss/search?q=分布式控制&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+    #   enabled: true
+    #   max_age_days: 1
 
-    - id: "google-news-automotive"
-      name: "Google News - 汽车"
-      url: "https://news.google.com/rss/search?q=汽车&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
-      enabled: true
-      max_age_days: 1
+    # - id: "google-news-automotive"
+    #   name: "Google News - 汽车"
+    #   url: "https://news.google.com/rss/search?q=汽车&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+    #   enabled: true
+    #   max_age_days: 1
 
-    - id: "arxiv-motor"
-      name: "arXiv - motor"
-      url: "http://export.arxiv.org/api/query?search_query=all:%22motor%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
-      enabled: true
-      max_age_days: 1
+    # - id: "arxiv-motor"
+    #   name: "arXiv - motor"
+    #   url: "http://export.arxiv.org/api/query?search_query=all:%22motor%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
+    #   enabled: true
+    #   max_age_days: 1
 
-    - id: "arxiv-corner-module"
-      name: "arXiv - corner module"
-      url: "http://export.arxiv.org/api/query?search_query=all:%22corner+module%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
-      enabled: true
-      max_age_days: 1
+    # - id: "arxiv-corner-module"
+    #   name: "arXiv - corner module"
+    #   url: "http://export.arxiv.org/api/query?search_query=all:%22corner+module%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
+    #   enabled: true
+    #   max_age_days: 1
 
-    - id: "arxiv-chassis"
-      name: "arXiv - chassis"
-      url: "http://export.arxiv.org/api/query?search_query=all:%22chassis%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
-      enabled: true
-      max_age_days: 1
+    # - id: "arxiv-chassis"
+    #   name: "arXiv - chassis"
+    #   url: "http://export.arxiv.org/api/query?search_query=all:%22chassis%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
+    #   enabled: true
+    #   max_age_days: 1
 
-    - id: "arxiv-distributed-control"
-      name: "arXiv - distributed control"
-      url: "http://export.arxiv.org/api/query?search_query=all:%22distributed+control%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
-      enabled: true
-      max_age_days: 1
+    # - id: "arxiv-distributed-control"
+    #   name: "arXiv - distributed control"
+    #   url: "http://export.arxiv.org/api/query?search_query=all:%22distributed+control%22&sortBy=submittedDate&sortOrder=descending&max_results=50"
+    #   enabled: true
+    #   max_age_days: 1
 
     - id: "arxiv-automotive"
       name: "arXiv - automotive"
